@@ -1,0 +1,12 @@
+file_format: "1"
+id: chiffre_epd 
+name: chiffre_epd
+type: board
+arch: arm
+features:
+  - keys
+  - underglow
+outputs:
+  - usb
+  - ble
+url: 
