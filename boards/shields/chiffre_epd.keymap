@@ -36,8 +36,8 @@
             &kp Q       &kp W   &kp E   &kp R   &kp T                               &kp Y   &kp U   &kp I       &kp O   &kp P
             &kp A       &kp S   &kp D   &kp F   &kp G                             &kp H   &kp J   &kp K       &kp L   &kp SEMI
             &mt LSHFT Z &kp X   &kp C   &kp V   &kp B                              &kp N   &kp M   &kp COMMA   &kp DOT &mt RSHFT FSLH
-           &none    &none  &kp TAB     &mt LGUI BSPC   &mt LCTRL SPACE                &lt 1 RET       &lt 2 DEL    &kp BACKSPACE   &none  &none
-			&kp UP    &kp DOWN   &kp RET    &kp C_MUTE     &none                             &none    &none        &none                  &kp LEFT &kp RIGHT
+            &kp TAB     &mt LGUI BSPC   &mt LCTRL SPACE                &lt 1 RET       &lt 2 DEL    &kp BACKSPACE  
+			&kp UP    &kp DOWN   &kp RET    &kp C_MUTE                                             &kp LEFT &kp RIGHT
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
@@ -53,8 +53,8 @@
             &kp N1      &kp N2 &kp N3 &kp N4 &kp N5                                      &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
             &kp TAB &bt BT_PRV &bt BT_NXT &kp C_VOL_DN &kp C_VOL_UP                         &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SQT
             &kp LSHFT &bt BT_SEL 0 &bt BT_CLR &kp C_MUTE &none                             &kp HOME &kp END &kp PG_UP &kp PG_DN &kp RSHFT
-            &none &none    &none       &kp LGUI &kp LCTRL                                        &trans     &trans       &kp LALT      &none   &none
-			&none &none &none &none &none           &none &none &none &rgb_ug RGB_OFF &rgb_ug RGB_ON
+               &none       &kp LGUI &kp LCTRL                                        &trans     &trans       &kp LALT   
+			&none &none &none &none           &rgb_ug RGB_OFF &rgb_ug RGB_ON
 			>;
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
@@ -70,8 +70,8 @@
             &kp ESC &kp F1 &kp F2 &kp F3 &kp F4 &out OUT_USB &out OUT_BLE &none  &kp EQUAL &kp MINUS
             &none &kp F5 &kp F6 &kp F7 &kp F8 &kp LBKT &kp RBKT &none &kp GRAVE &kp BSLH
             &kp LSHFT &kp F9 &kp F10 &kp F11 &kp F12                    &none  &none &sys_reset &bootloader &kp RSHFT
-            &none &none &kp LGUI &kp LCTRL &kp LALT                          &trans &trans  &kp C_MUTE   &none  &none
-				&none &none &none &none &none    &none &none &none &ext_power EP_OFF &ext_power EP_ON
+             &kp LGUI &kp LCTRL &kp LALT                          &trans &trans  &kp C_MUTE   
+				&none &none &none &none      &ext_power EP_OFF &ext_power EP_ON
 			>;
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;		};
 	};
